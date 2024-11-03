@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /*1 zad*/
+body{/*убираем все отступы, чтобы не было белой обводки от краев сайта, документа */
+    margin: 0;
+    padding: 0;
+    font-family:Century Gothic; 
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #000000;/*задаем рамку снизу*/
+    background: #D9D9D9;/*задаем фон блоку*/
+    width: 100%;/*во всю ширину*/
+  }
+  
+  .menu-list {
+    display: flex;
+    list-style-type: none;/*убираем точки*/
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+  }
+  
+  .menu-item {
+    position: relative;/*задает относительное поз. родительского элемента*/
+    padding: 0 1em;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block; /*блокировка позиционирования*/
+    padding: 0.75em 1.5em;
+  }
+
+
+  /*2 zad*/
+  .submenu {
+    list-style-type: none;
+    border-top: 1px solid black;
+    display: none; /*убирает выдимость блока*/
+    position: absolute;/*абсолютное позиционированние элемента на странице*/
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  
+  .menu-item:hover .submenu {
+    display: block;
+    
+  }
+  
+  /*3 zad*/
+  .menu-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 0.75em 1.5em;
+    transition: color 0.3s ease;
+  }
+  .menu-item a:hover {
+    color: #0088cc;
+  }
+  
+  /*4 zad*/
+  .menu-item:hover .submenu {
+    width: 100%;
+    background-color: #a6a6a6;
+  }
+  .menu-item a img{
+    margin-right:6px;
+  }
+
+ul {
+    list-style-type: none; /* Убирает точки перед элементами списка */
+    padding: 0; /* Убирает внутренние отступы */
+    margin: 0; /* Убирает внешние отступы */
+} 
+
+li {
+    text-align: left; /* Выравнивает текст по левому краю */
+}
+
+.body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .full-width-image {
+            width: 100%;
+            height: auto; /* Сохраняет пропорции изображения */
+        }
+        .content {
+            padding: 20px;
+        }
+       
+        body {
+            background-color: #F5F5F7; 
+}
+
+        .full-width-image {
+            width: 100%; /* Занимает 100% ширины родительского элемента */
+            height: auto; /* Сохраняет пропорции изображения */
+            display: block; /* Убирает отступы снизу, которые могут появляться у изображений */
+}
+
+
+
+    </style>
+</head>
+<body>
+        <nav class="menu">
+          <ul class="ul">
+
+          </ul>
+            <ul class="menu-list">
+                <li class="menu-item"><a href=""><img src="Vector.png" alt="apple"></a></li>
+              <li class="menu-item"><a href="#">Store</a></li>
+              <li class="menu-item">
+                <a href="#">Mac</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">iPad</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">iPhone</a>
+              </li>
+              <li class="menu-item">
+                <a href="#">AirPods</a>
+              </li>
+                <li class="menu-item">
+                <a href="#">TV & Home</a>
+               </li>
+                <li class="menu-item">
+                <a href="#">Support</a>
+              </li>
+            </ul>
+          </nav>
+    </div>
+
+    <div class="fon">
+  <img src="2024-07-21_23-00-54 1.png" alt="Описание картинки">
+    <div>
+
+      <p>ios17</p>
+      <h1>Каждый день.
+        Более экстраординарный</h1>
+        <p>iOS 17 предлагает новые функции, которые улучшат то, что вы делаете каждый день.
+          Выражайте себя так, как никогда раньше, когда звоните
+          кому-то или отправляете сообщение. Делитесь контентом новыми 
+          удобными способами. И делайте еще больше
+          с помощью новых возможностей для вашего iPhone.</p>
+    </div>
+
+    <div>
+      <h1>Наши продукты</h1>
+      <p>Самое интересное</p>
+      <p>Мобильные</p>
+      <p>ТВ и Аудио</p>
+      <p>Бытовая техника</p>
+      <p>Мониторы</p>
+      <img src="100062422166b0 1.png" alt="Айфон">
+      <img src="100040000468b0 1.png" alt="часы">
+      <img src="6030966199 1.png" alt="наушники">
+      <img src="100067318659b0 1.png" alt="Мониторы">
+      <img src="qvgf459dzia73l89yf108345wxihkcpx 1.png" alt="Ноутбук">
+    </div>
+    <div>
+      <h2>Если вас что то заинтересовало, 
+        то вы сможете найти нас по 
+        информацие ниже
+      </h2>
+    </div>
+
+    <div>
+      <footer>
+      <h1>Все о нас:</h1>
+      <p>
+1.Available in English (Canada, U.S.).
+2.Available on iPhone 12 and later when using the front camera.
+3.Available on iPhone XS and iPhone XR and later and on Apple TV 4K (2nd generation and later).
+4.Available on Apple Watch Series 7 or later, Apple Watch SE (2nd generation), and all Ultra models.
+5.Available in Arabic, Dutch, English, French, German, Hebrew, Korean, Italian, Polish, Portuguese, Romanian, Spanish, and Thai. English, French, and Spanish require iPhone 12 or later.
+6.Available in English on iPhone 12 and later.
+7.Available on iPhone XS and iPhone XR and later and AirPods Pro (2nd generation) with the latest firmware.
+8.Available in compatible applications with AirPods (3rd generation), AirPods Pro (1st and 2nd generation), or AirPods Max with the latest firmware.
+9.Available on iPhone XS and iPhone XR and later and AirPods (2nd and 3rd generation), AirPods Pro (1st and 2nd generation), and AirPods Max, with the latest firmware.
+10.Available in English (Australia, Canada, United Kingdom, U.S.) on iPhone and on AirPods Pro (2nd generation).
+11.Available in English (Australia, Canada, United Kingdom, U.S.) on iPhone 11 and later.
+12.Available in English.
+13.Available on iPhone 12 Pro, iPhone 12 Pro Max and later.
+14.Available for homes using the new Home architecture and a HomePod or Apple TV running as a home hub.
+15.Features are subject to change. Some features, applications, and services may not be available in all regions or all languages.
+      </p>
+    </footer>
+    </div>
+    <h4>
+      <img src="Vector.png" alt="Apple">> iOS > 17
+    </h4>
+    <ul>
+      <li><strong>Shop and Learn</strong></li>
+      <li>Store</li>
+      <li>Mac</li>
+      <li>iPad</li>
+      <li>iPad</li>
+      <li>iPhone</li>
+      <li>Watch</li>
+      <li>Vision</li>
+      <li>AirPods</li>
+      <li>TV & Home</li>
+      <li>AirTag</li>
+      <li>Accessories</li>
+      <li>Gift Cards</li>
+
+      <li><strong>Apple Wallet</strong></li>
+      <li>Wallet</li>
+      <li>Apple Card</li>
+      <li>Apple Pay</li>
+
+
+      <li><strong>Shop and Learn</strong></li>
+      <li>Store</li>
+      <li>Mac</li>
+      <li>iPad</li>
+      <li>iPad</li>
+      <li>iPhone</li>
+      <li>Watch</li>
+      <li>Vision</li>
+      <li>AirPods</li>
+      <li>TV & Home</li>
+      <li>AirTag</li>
+      <li>Accessories</li>
+      <li>Gift Cards</li>
+
+      <li><strong>Apple Wallet</strong></li>
+      <li>Wallet</li>
+      <li>Apple Card</li>
+      <li>Apple Pay</li>
+
+
+      <li><strong>Shop and Learn</strong></li>
+      <li>Store</li>
+      <li>Mac</li>
+      <li>iPad</li>
+      <li>iPad</li>
+      <li>iPhone</li>
+      <li>Watch</li>
+      <li>Vision</li>
+      <li>AirPods</li>
+      <li>TV & Home</li>
+      <li>AirTag</li>
+      <li>Accessories</li>
+      <li>Gift Cards</li>
+
+      <li><strong>Apple Wallet</strong></li>
+      <li>Wallet</li>
+      <li>Apple Card</li>
+      <li>Apple Pay</li>
+
+
+      <li><strong>Shop and Learn</strong></li>
+      <li>Store</li>
+      <li>Mac</li>
+      <li>iPad</li>
+      <li>iPad</li>
+      <li>iPhone</li>
+      <li>Watch</li>
+      <li>Vision</li>
+      <li>AirPods</li>
+      <li>TV & Home</li>
+      <li>AirTag</li>
+      <li>Accessories</li>
+      <li>Gift Cards</li>
+
+      <li><strong>Apple Wallet</strong></li>
+      <li>Wallet</li>
+      <li>Apple Card</li>
+      <li>Apple Pay</li>
+
+
+      <li><strong>Shop and Learn</strong></li>
+      <li>Store</li>
+      <li>Mac</li>
+      <li>iPad</li>
+      <li>iPad</li>
+      <li>iPhone</li>
+      <li>Watch</li>
+      <li>Vision</li>
+      <li>AirPods</li>
+      <li>TV & Home</li>
+      <li>AirTag</li>
+      <li>Accessories</li>
+      <li>Gift Cards</li>
+
+      <li><strong>Apple Wallet</strong></li>
+      <li>Wallet</li>
+      <li>Apple Card</li>
+      <li>Apple Pay</li>
+    </ul>
+
+    <p>More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE.</p>
+    <hr>
+    <p>Copyright © 2024 Apple Inc. All rights reserved.</p><li>Terms of Use</li><li>Legal</li><li>Site Map</li>
+</body>
+</html>
